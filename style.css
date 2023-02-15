@@ -1,0 +1,109 @@
+.margin{
+    margin:0px;
+    background-image:url(sahara\ desert.jpg);
+}
+
+.heading{
+    color:white;
+    font-size:10px;
+    font-style:italic;
+}
+.logo{
+    margin-top:17px;
+    margin-left:70px;
+}
+.top{
+    float:right;
+    word-spacing:40px;
+    margin:15px;
+    display:flex;
+    font-size: 10px;
+}
+.s{
+    display:inline;
+}
+.menu{
+    margin:-10px;
+    maegin-left:30px;
+}
+.container{
+    display:flex;
+    width:100%;
+}
+.flex1{
+    margin:100px;
+    margin-top:40px;
+}
+.header{
+    font-size: 100px;
+    margin-bottom:10px;
+}
+.h1{
+    color:white;
+}
+.button{
+    background-color:white;
+    border-radius:30%;
+    width:150px;
+    height:30px;
+}
+.flex2{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+    height:500px;
+    margin-top:10px;
+    margin-left:90px;
+}
+.card{
+    width:200px;
+    height:200px;
+    border-radius:7px;
+    margin-left:50px;
+}
+
+.c1{
+    background-image:url(./S11.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.c2{
+    background-image:url(./pic-2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.c3{
+    background-image:url(./pic-3.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.c4{
+    background-image:url(./pic-4.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.image{
+    padding:20px;
+    line-height:5px;
+    color:white;
+}
+
+@media (max-width:540px) {
+   .container{
+    flex-direction:column;
+   } 
+   .flex1{
+    width:100%;
+   }
+   .flex2{
+    width:100%;
+   }
+   .card{
+    width:500px;
+    margin:10px;
+   }
+}
